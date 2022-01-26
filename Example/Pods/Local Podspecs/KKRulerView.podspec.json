@@ -1,0 +1,22 @@
+{
+  "name": "KKRulerView",
+  "version": "0.1.0",
+  "summary": "A short description of KKRulerView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kkwong90@163.com/KKRulerView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kkwong90@163.com": "kkwong90@163.com"
+  },
+  "source": {
+    "git": "https://github.com/kkwong90@163.com/KKRulerView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "KKRulerView/Classes/**/*"
+}

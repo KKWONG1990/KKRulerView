@@ -1,0 +1,16 @@
+PODS:
+  - KKRulerView (0.1.0)
+
+DEPENDENCIES:
+  - KKRulerView (from `../`)
+
+EXTERNAL SOURCES:
+  KKRulerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KKRulerView: 5a05ecefddb11e0835095575ca88c0759e42c31a
+
+PODFILE CHECKSUM: 3e78a8863491d901d2dd852ecb170fa4c9248e07
+
+COCOAPODS: 1.9.3

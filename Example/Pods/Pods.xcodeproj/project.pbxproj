@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E809D2C5E17D57450AEF8FDE558272D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		475E2AC09C0809AB776034405119F43F /* KKRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7ECED8E1ECEBD559F75840D37D5E3E0 /* KKRulerView.m */; };
+		6EDABAF0FDF4F616B3AA8E02B965638A /* KKRulerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6B1785097C980E519F548496C66098 /* KKRulerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76814EAC0C1F0882099FCAE73298FE52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7DFB830710D1A4F7F4B3246D43175653 /* Pods-KKRulerView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFEAA242DEAFCA594D025225AB19789 /* Pods-KKRulerView_Tests-dummy.m */; };
+		9A42EE797763E9B4531FE15196DAFCC3 /* Pods-KKRulerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A21F039CA59D0C77BDF943DE9F7AB56D /* Pods-KKRulerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9BF1E5FFD45BE3D7DCCF8247CF31E21 /* Pods-KKRulerView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D14F32888C6C4F1739C0FB2D2005FF /* Pods-KKRulerView_Example-dummy.m */; };
+		C2901E242FA40FAD437B90D3092BF557 /* Pods-KKRulerView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A68FE087AE5F97337B17DE7127B9679 /* Pods-KKRulerView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7DF5D0C4A4636DC16D901D729A76C4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DD8DC4C6782CEBAD2A75BCCD0072114C /* KKRulerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CBC64822FADE36D9C4A86F06F62652E /* KKRulerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD220F93DB8250C6E35B6EBAF1EB8A70 /* KKRulerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA84A36198780C3B2C75119E8CB967D /* KKRulerView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CA43228F7C2BFCD2EAAB34EA047F449 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8411A1E037000CF2272381A7BEFBC72;
+			remoteInfo = KKRulerView;
+		};
+		717422E31989574A511C6D6D7AD4A229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32931D303B84DC4B4A47E386645B5903;
+			remoteInfo = "Pods-KKRulerView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C16078723A235C5C0CEEA7A7FEE9839 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		10FF036264CAE3D1D2C8388E09A71468 /* Pods-KKRulerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKRulerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1183CC9E6C7C9AECD3A0ABEA4309ABCD /* KKRulerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KKRulerView-Info.plist"; sourceTree = "<group>"; };
+		172BD360FE8CE58856E34DAE5AA5E518 /* Pods-KKRulerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKRulerView_Example.modulemap"; sourceTree = "<group>"; };
+		1A1B05F544F40D46DAC68A68570EA9DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35CA1E609A3664B0B1757D8C29282DC6 /* Pods-KKRulerView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKRulerView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		377A82871E3FEBEDDD608A578A08EF3F /* Pods-KKRulerView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKRulerView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38634A7BCA9CB3ACCCCBE60FFB808B09 /* Pods-KKRulerView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKRulerView_Tests-Info.plist"; sourceTree = "<group>"; };
+		3CA1E083E61B036B1B211AB30630F986 /* Pods-KKRulerView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKRulerView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D33EF90B1FF85B2D19A2FF9CB65DAB4 /* Pods_KKRulerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKRulerView_Tests.framework; path = "Pods-KKRulerView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA84A36198780C3B2C75119E8CB967D /* KKRulerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KKRulerView-dummy.m"; sourceTree = "<group>"; };
+		4CBC64822FADE36D9C4A86F06F62652E /* KKRulerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KKRulerView.h; path = KKRulerView/Classes/KKRulerView.h; sourceTree = "<group>"; };
+		4EA0D364B6C3237BB04ADB803F4A5D01 /* Pods-KKRulerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKRulerView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		54D14F32888C6C4F1739C0FB2D2005FF /* Pods-KKRulerView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKRulerView_Example-dummy.m"; sourceTree = "<group>"; };
+		553BD9203F8ED136B70BEA321B1F6193 /* KKRulerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KKRulerView.framework; path = KKRulerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A29AF82311ADB7E2E5F74A8580EBC3 /* Pods-KKRulerView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KKRulerView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5AFEAA242DEAFCA594D025225AB19789 /* Pods-KKRulerView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKRulerView_Tests-dummy.m"; sourceTree = "<group>"; };
+		5C6B1785097C980E519F548496C66098 /* KKRulerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKRulerView-umbrella.h"; sourceTree = "<group>"; };
+		6310527DC1A74A4AA9E9828ED061F388 /* KKRulerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKRulerView.release.xcconfig; sourceTree = "<group>"; };
+		6D9D4FA5AE4FF0164D506880C44BBB9C /* Pods-KKRulerView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKRulerView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		811EA49EB62809F360C74F1E1BFB4186 /* KKRulerView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KKRulerView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8A5947AF35C776A2C04EF5C8A9DDC9B9 /* KKRulerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KKRulerView-prefix.pch"; sourceTree = "<group>"; };
+		8A68FE087AE5F97337B17DE7127B9679 /* Pods-KKRulerView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKRulerView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8B1C679D27482DA53B1235BEDB84521C /* KKRulerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KKRulerView.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A21F039CA59D0C77BDF943DE9F7AB56D /* Pods-KKRulerView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKRulerView_Example-umbrella.h"; sourceTree = "<group>"; };
+		C7B1D66B4A21FE5075AED3E50606CA42 /* Pods-KKRulerView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKRulerView_Tests.modulemap"; sourceTree = "<group>"; };
+		C7ECED8E1ECEBD559F75840D37D5E3E0 /* KKRulerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KKRulerView.m; path = KKRulerView/Classes/KKRulerView.m; sourceTree = "<group>"; };
+		CFEA4121A22AE17390098D3ABA83AE85 /* Pods-KKRulerView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKRulerView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D10CEA5A32F483F0E09989202D8F5232 /* Pods_KKRulerView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KKRulerView_Example.framework; path = "Pods-KKRulerView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1CD0317A51F34A847115D0A9C6A99A8 /* Pods-KKRulerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKRulerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D286246B8177CC56EAB1145BB514DE2A /* KKRulerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KKRulerView.debug.xcconfig; sourceTree = "<group>"; };
+		EBA0091BB05ED3C5CD6F653AD43ABC53 /* Pods-KKRulerView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKRulerView_Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A43814082E2C3C921141DA0D57FD80D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76814EAC0C1F0882099FCAE73298FE52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4285993311D6FC10075A8FB901651A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E809D2C5E17D57450AEF8FDE558272D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595632E9621738F91094651325C71060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DF5D0C4A4636DC16D901D729A76C4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		196C603C9252D7F5C75043FBB18C0B9E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				811EA49EB62809F360C74F1E1BFB4186 /* KKRulerView.podspec */,
+				0C16078723A235C5C0CEEA7A7FEE9839 /* LICENSE */,
+				1A1B05F544F40D46DAC68A68570EA9DE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2E1B488BCBF796B8EAB2F5B65E3A9789 /* KKRulerView */ = {
+			isa = PBXGroup;
+			children = (
+				4CBC64822FADE36D9C4A86F06F62652E /* KKRulerView.h */,
+				C7ECED8E1ECEBD559F75840D37D5E3E0 /* KKRulerView.m */,
+				196C603C9252D7F5C75043FBB18C0B9E /* Pod */,
+				9E7407EA6625C1FC4AFE84DB93ED85DE /* Support Files */,
+			);
+			name = KKRulerView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		68C187F1E2BACBFA7BD53B34B658533B /* Pods-KKRulerView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C7B1D66B4A21FE5075AED3E50606CA42 /* Pods-KKRulerView_Tests.modulemap */,
+				35CA1E609A3664B0B1757D8C29282DC6 /* Pods-KKRulerView_Tests-acknowledgements.markdown */,
+				3CA1E083E61B036B1B211AB30630F986 /* Pods-KKRulerView_Tests-acknowledgements.plist */,
+				5AFEAA242DEAFCA594D025225AB19789 /* Pods-KKRulerView_Tests-dummy.m */,
+				38634A7BCA9CB3ACCCCBE60FFB808B09 /* Pods-KKRulerView_Tests-Info.plist */,
+				8A68FE087AE5F97337B17DE7127B9679 /* Pods-KKRulerView_Tests-umbrella.h */,
+				10FF036264CAE3D1D2C8388E09A71468 /* Pods-KKRulerView_Tests.debug.xcconfig */,
+				CFEA4121A22AE17390098D3ABA83AE85 /* Pods-KKRulerView_Tests.release.xcconfig */,
+			);
+			name = "Pods-KKRulerView_Tests";
+			path = "Target Support Files/Pods-KKRulerView_Tests";
+			sourceTree = "<group>";
+		};
+		7CE58C70AB975C0142F828075464337B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				553BD9203F8ED136B70BEA321B1F6193 /* KKRulerView.framework */,
+				D10CEA5A32F483F0E09989202D8F5232 /* Pods_KKRulerView_Example.framework */,
+				3D33EF90B1FF85B2D19A2FF9CB65DAB4 /* Pods_KKRulerView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A20A350B4D15E3F97260F84CE3FFD60 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED793750FB62F7A7E5B60ED1C3963B8D /* Pods-KKRulerView_Example */,
+				68C187F1E2BACBFA7BD53B34B658533B /* Pods-KKRulerView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9E7407EA6625C1FC4AFE84DB93ED85DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B1C679D27482DA53B1235BEDB84521C /* KKRulerView.modulemap */,
+				4CA84A36198780C3B2C75119E8CB967D /* KKRulerView-dummy.m */,
+				1183CC9E6C7C9AECD3A0ABEA4309ABCD /* KKRulerView-Info.plist */,
+				8A5947AF35C776A2C04EF5C8A9DDC9B9 /* KKRulerView-prefix.pch */,
+				5C6B1785097C980E519F548496C66098 /* KKRulerView-umbrella.h */,
+				D286246B8177CC56EAB1145BB514DE2A /* KKRulerView.debug.xcconfig */,
+				6310527DC1A74A4AA9E9828ED061F388 /* KKRulerView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KKRulerView";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C7BAD6862B3C70F1D63224E05273A8AC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E1B488BCBF796B8EAB2F5B65E3A9789 /* KKRulerView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C7BAD6862B3C70F1D63224E05273A8AC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7CE58C70AB975C0142F828075464337B /* Products */,
+				8A20A350B4D15E3F97260F84CE3FFD60 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED793750FB62F7A7E5B60ED1C3963B8D /* Pods-KKRulerView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				172BD360FE8CE58856E34DAE5AA5E518 /* Pods-KKRulerView_Example.modulemap */,
+				377A82871E3FEBEDDD608A578A08EF3F /* Pods-KKRulerView_Example-acknowledgements.markdown */,
+				6D9D4FA5AE4FF0164D506880C44BBB9C /* Pods-KKRulerView_Example-acknowledgements.plist */,
+				54D14F32888C6C4F1739C0FB2D2005FF /* Pods-KKRulerView_Example-dummy.m */,
+				56A29AF82311ADB7E2E5F74A8580EBC3 /* Pods-KKRulerView_Example-frameworks.sh */,
+				EBA0091BB05ED3C5CD6F653AD43ABC53 /* Pods-KKRulerView_Example-Info.plist */,
+				A21F039CA59D0C77BDF943DE9F7AB56D /* Pods-KKRulerView_Example-umbrella.h */,
+				D1CD0317A51F34A847115D0A9C6A99A8 /* Pods-KKRulerView_Example.debug.xcconfig */,
+				4EA0D364B6C3237BB04ADB803F4A5D01 /* Pods-KKRulerView_Example.release.xcconfig */,
+			);
+			name = "Pods-KKRulerView_Example";
+			path = "Target Support Files/Pods-KKRulerView_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0ABF7AFB49BD3838125A27552A0D2746 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A42EE797763E9B4531FE15196DAFCC3 /* Pods-KKRulerView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7299F19FC16F4F2DE9FE2F10D7B92FF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EDABAF0FDF4F616B3AA8E02B965638A /* KKRulerView-umbrella.h in Headers */,
+				DD8DC4C6782CEBAD2A75BCCD0072114C /* KKRulerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10F5FE96C6E8F40BF597077A35586E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2901E242FA40FAD437B90D3092BF557 /* Pods-KKRulerView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32931D303B84DC4B4A47E386645B5903 /* Pods-KKRulerView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49ABF9282345B0E7480C677194A130FB /* Build configuration list for PBXNativeTarget "Pods-KKRulerView_Example" */;
+			buildPhases = (
+				0ABF7AFB49BD3838125A27552A0D2746 /* Headers */,
+				416E48E8094DFEA3BC0C9322EF8A8030 /* Sources */,
+				2A43814082E2C3C921141DA0D57FD80D /* Frameworks */,
+				54D05926B6AE04BA3C6A0E1C1C833584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C995E93217D823AD24A67001420754B /* PBXTargetDependency */,
+			);
+			name = "Pods-KKRulerView_Example";
+			productName = "Pods-KKRulerView_Example";
+			productReference = D10CEA5A32F483F0E09989202D8F5232 /* Pods_KKRulerView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8411A1E037000CF2272381A7BEFBC72 /* KKRulerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E4AA567FBB7C7C7B6EF96416D13A4D3 /* Build configuration list for PBXNativeTarget "KKRulerView" */;
+			buildPhases = (
+				7299F19FC16F4F2DE9FE2F10D7B92FF1 /* Headers */,
+				D0814B6C04A5D99F82B976DC60447470 /* Sources */,
+				4285993311D6FC10075A8FB901651A58 /* Frameworks */,
+				72515D51A99DB2B4E2D31AD9BC71FEAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKRulerView;
+			productName = KKRulerView;
+			productReference = 553BD9203F8ED136B70BEA321B1F6193 /* KKRulerView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC4975E7CD4E7732269CF9C8A5CEACF7 /* Pods-KKRulerView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90E93B3F03674BB64A1468D869F31DB /* Build configuration list for PBXNativeTarget "Pods-KKRulerView_Tests" */;
+			buildPhases = (
+				A10F5FE96C6E8F40BF597077A35586E1 /* Headers */,
+				8B08AD0230BE1E8980CBD1141FA86C44 /* Sources */,
+				595632E9621738F91094651325C71060 /* Frameworks */,
+				55345B53FBDB944420B27817F3F08C0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03B31167EF57EB7A72AD90841AF2A226 /* PBXTargetDependency */,
+			);
+			name = "Pods-KKRulerView_Tests";
+			productName = "Pods-KKRulerView_Tests";
+			productReference = 3D33EF90B1FF85B2D19A2FF9CB65DAB4 /* Pods_KKRulerView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7CE58C70AB975C0142F828075464337B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8411A1E037000CF2272381A7BEFBC72 /* KKRulerView */,
+				32931D303B84DC4B4A47E386645B5903 /* Pods-KKRulerView_Example */,
+				EC4975E7CD4E7732269CF9C8A5CEACF7 /* Pods-KKRulerView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54D05926B6AE04BA3C6A0E1C1C833584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55345B53FBDB944420B27817F3F08C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72515D51A99DB2B4E2D31AD9BC71FEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		416E48E8094DFEA3BC0C9322EF8A8030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BF1E5FFD45BE3D7DCCF8247CF31E21 /* Pods-KKRulerView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B08AD0230BE1E8980CBD1141FA86C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFB830710D1A4F7F4B3246D43175653 /* Pods-KKRulerView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0814B6C04A5D99F82B976DC60447470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD220F93DB8250C6E35B6EBAF1EB8A70 /* KKRulerView-dummy.m in Sources */,
+				475E2AC09C0809AB776034405119F43F /* KKRulerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03B31167EF57EB7A72AD90841AF2A226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KKRulerView_Example";
+			target = 32931D303B84DC4B4A47E386645B5903 /* Pods-KKRulerView_Example */;
+			targetProxy = 717422E31989574A511C6D6D7AD4A229 /* PBXContainerItemProxy */;
+		};
+		3C995E93217D823AD24A67001420754B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KKRulerView;
+			target = C8411A1E037000CF2272381A7BEFBC72 /* KKRulerView */;
+			targetProxy = 5CA43228F7C2BFCD2EAAB34EA047F449 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0432020508EF7B53CD70F7DBE258DF52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D286246B8177CC56EAB1145BB514DE2A /* KKRulerView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KKRulerView/KKRulerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KKRulerView/KKRulerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KKRulerView/KKRulerView.modulemap";
+				PRODUCT_MODULE_NAME = KKRulerView;
+				PRODUCT_NAME = KKRulerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B2ED185A1515555D18714E16097E703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1CD0317A51F34A847115D0A9C6A99A8 /* Pods-KKRulerView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKRulerView_Example/Pods-KKRulerView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KKRulerView_Example/Pods-KKRulerView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3706F52A4C7C8402379C840B8F1D2066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10FF036264CAE3D1D2C8388E09A71468 /* Pods-KKRulerView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKRulerView_Tests/Pods-KKRulerView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KKRulerView_Tests/Pods-KKRulerView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BAEB360ED1F2B81B61E386D998579F4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA0D364B6C3237BB04ADB803F4A5D01 /* Pods-KKRulerView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKRulerView_Example/Pods-KKRulerView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KKRulerView_Example/Pods-KKRulerView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D4A6DB50C0E11296E21CF666E542892E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFEA4121A22AE17390098D3ABA83AE85 /* Pods-KKRulerView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKRulerView_Tests/Pods-KKRulerView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KKRulerView_Tests/Pods-KKRulerView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FBAE73AA1211AB0AD68BEE240C5F9BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6310527DC1A74A4AA9E9828ED061F388 /* KKRulerView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KKRulerView/KKRulerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KKRulerView/KKRulerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KKRulerView/KKRulerView.modulemap";
+				PRODUCT_MODULE_NAME = KKRulerView;
+				PRODUCT_NAME = KKRulerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E4AA567FBB7C7C7B6EF96416D13A4D3 /* Build configuration list for PBXNativeTarget "KKRulerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0432020508EF7B53CD70F7DBE258DF52 /* Debug */,
+				FBAE73AA1211AB0AD68BEE240C5F9BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49ABF9282345B0E7480C677194A130FB /* Build configuration list for PBXNativeTarget "Pods-KKRulerView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2ED185A1515555D18714E16097E703 /* Debug */,
+				BAEB360ED1F2B81B61E386D998579F4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90E93B3F03674BB64A1468D869F31DB /* Build configuration list for PBXNativeTarget "Pods-KKRulerView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3706F52A4C7C8402379C840B8F1D2066 /* Debug */,
+				D4A6DB50C0E11296E21CF666E542892E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
