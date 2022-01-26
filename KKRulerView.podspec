@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 一个尺子视图，支持自定义文本样式，支持上文下尺，上尺下文
                        DESC
 
-  s.homepage         = 'https://github.com/kkwong90@163.com/KKRulerView'
+  s.homepage         = 'https://github.com/KKWONG1990/KKRulerView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kkwong' => 'kkwong90@163.com' }
-  s.source           = { :git => 'https://github.com/kkwong90@163.com/KKRulerView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/KKWONG1990/KKRulerView.git', :tag => s.version.to_s }
   
   #社交网站地址
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
