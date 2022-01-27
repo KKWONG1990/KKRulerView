@@ -181,10 +181,6 @@
     } else {
         y = CGRectGetHeight(self.scrollView.frame) - CGRectGetHeight(lineRect) - size.height - self.textSpacingToLine - self.lineSpacingToScrollView;
     }
-//
-//
-//
-//    CGFloat y = CGRectGetHeight(self.scrollView.frame) - CGRectGetHeight(lineRect) - size.height - self.textSpacingToLine - self.lineSpacingToScrollView;
     return CGRectMake(x, y, size.width, size.height);
 }
 

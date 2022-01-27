@@ -1,5 +1,5 @@
 PODS:
-  - KKRulerView (1.0.0)
+  - KKRulerView (1.0.1)
 
 DEPENDENCIES:
   - KKRulerView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KKRulerView: f206c6e4587adfd6c5eef011859f6a2cbdbb9306
+  KKRulerView: 69f4346d041a8c978c3be05113d35204fcb1e141
 
 PODFILE CHECKSUM: 3e78a8863491d901d2dd852ecb170fa4c9248e07
 

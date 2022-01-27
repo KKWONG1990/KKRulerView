@@ -1,6 +1,6 @@
 {
   "name": "KKRulerView",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "一个尺子视图",
   "description": "一个尺子视图，支持自定义文本样式，支持上文下尺，上尺下文",
   "homepage": "https://github.com/KKWONG1990/KKRulerView",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/KKWONG1990/KKRulerView.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "9.0"

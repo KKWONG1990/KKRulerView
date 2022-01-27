@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-#pragma TODO:添加选中的指针图片
+#pragma TODO:添加选中的指针图片、线条动画
 
 
 @interface KKRulerView : UIView
